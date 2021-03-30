@@ -24,9 +24,9 @@ BLOG_DIR = BASE_DIR / 'blog/templates'
 SECRET_KEY = ')26p93%o5*7v&jd8b8#j$6k+bmv!o_0r8)=pm40smhg)h457dt'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sravanmandava.pythonanywhere.com']
 
 
 # Application definition
@@ -121,6 +121,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = BASE_DIR / 'static'
 
 MEDIA_URL='/media/'
 
